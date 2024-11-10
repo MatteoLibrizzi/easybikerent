@@ -5,8 +5,8 @@ import Footer from "@/components/ui/footer";
 import BasicLayour from "./basicLayout";
 
 export const metadata: Metadata = {
-  title: "Friends Reminders",
-  description: "Remember to text your loved ones",
+  title: "Easy Bike Rent",
+  description: "Find a bike to rent in europe",
 };
 
 export default function LandingLayout({

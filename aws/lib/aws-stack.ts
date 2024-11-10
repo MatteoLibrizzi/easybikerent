@@ -20,7 +20,7 @@ import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment'
 import { Construct } from 'constructs'
 import { LambdaIntegration, LambdaRestApi } from 'aws-cdk-lib/aws-apigateway';
 
-export class PROJECTNAMEStack extends cdk.Stack {
+export class EasyBikeStack extends cdk.Stack {
 	prod: boolean
 
 

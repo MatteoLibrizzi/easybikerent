@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib';
 import 'source-map-support/register';
-import { PROJECTNAMEStack } from '../lib/aws-stack';
+import { EasyBikeStack } from '../lib/aws-stack';
 import * as dotenv from "dotenv";
 
 dotenv.config();
@@ -11,7 +11,7 @@ console.log(
   "Deploying to env: ",
   process.env.ENVIRONMENT === "prod" ? "prod" : "dev"
 );
-new PROJECTNAMEStack(
+new EasyBikeStack(
   app,
   (process.env.ENVIRONMENT === "prod" ? "prod" : "dev") + "FriendsReminders",
   process.env.ENVIRONMENT === "prod",
